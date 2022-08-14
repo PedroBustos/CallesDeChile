@@ -1,6 +1,5 @@
-#+title: Web App Mostrar calles de chile
+#+title: Configuración
 
-* Configuración
 A continuación se indica las configuraciones a tener en cuenta para el funcionamiento de la app
 
 ** Requisitos
