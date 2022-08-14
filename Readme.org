@@ -1,0 +1,10 @@
+#+title: App web Calles de Chile
+
+* Intro
+**  [[https://github.com/PedroBustos/CallesDeChile/tree/main/AppMostrarCalles/calles_front][FrontEnd]]
+Ésta App usa NodeJS como Frontend para mostrar campos Select donde se puede elegir una Región, Provincia y Ciudad de Chile para mostrar sus calles
+
+** [[https://github.com/PedroBustos/CallesDeChile/tree/main/AppMostrarCalles/calle_back][BackEnd]]
+El Backend está escrito en PHP con el framework Laravel, el cual recupera información de una Base de datos MySQL
+
+[[file:callesdechile.png]]
