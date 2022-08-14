@@ -19,13 +19,15 @@ sudo apt install mysql-server php libapache2-mod-php php-mysql
 #+end_src
 
 ** Variables a cambiar
-En la [[https://github.com/PedroBustos/CallesDeChile/blob/main/AppMostrarCalles/calle_back/.env.example][configuración]] de la Base de Datos para Laravel se requiere indicar un usuario y contraseña para la conexión a la DB.
+En la configuración de la Base de Datos para Laravel se requiere indicar un usuario y contraseña para la conexión a la DB.
 
 Los valores por defecto son:
     + Usuario: pedro
     + Contraseña: pedro123
 
 Para una conexión exitosa se debe modificar el usuario en las variables .env como se muestra a continuación
+
+aquí hay una [[https://github.com/PedroBustos/CallesDeChile/blob/main/AppMostrarCalles/calle_back/.env.example][config de ejemplo]]
 
 #+begin_src env
 ...
