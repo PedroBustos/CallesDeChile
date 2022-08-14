@@ -7,4 +7,4 @@
 ** [[https://github.com/PedroBustos/CallesDeChile/tree/main/AppMostrarCalles/calle_back][BackEnd]]
 El Backend está escrito en PHP con el framework Laravel, el cual recupera información de una Base de datos MySQL
 
-[[file:callesdechile.png]]
+[[file:calles.png]]
