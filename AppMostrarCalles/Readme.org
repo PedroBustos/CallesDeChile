@@ -1,0 +1,40 @@
+#+title: Web App Mostrar calles de chile
+
+* Intro
+Ésta aplicaión web muestra las calles de chile dependiendo de la Región, Provincia y Ciudad que uno eliga.
+
+** Requisitos
+Para que la app funcione correctamente se necesita tener instalado nodejs y npm, demás de contar con un servidor SQL y php para levantar los servicios
+*** Instalación nodejs y npm
++ Para Linux Ubuntu
+
+#+begin_src bash
+sudo apt install -y nodejs npm
+#+end_src
+
+*** Instalar mysql y php
++ En ubuntu, se puede instalar mysql, php y sus componentes desde la consola
+
+#+begin_src bash
+sudo apt install mysql-server php libapache2-mod-php php-mysql
+#+end_src
+
+** Variables a cambiar
+En la configuración de la Base de Datos para Laravel se requiere indicar un usuario y contraseña para la conexión a la DB.
+
+Los valores por defecto son:
+    + Usuario: pedro
+    + Contraseña: pedro123
+
+Para una conexión exitosa se debe modificar el usuario en las variables .env como se muestra a continuación
+
+#+begin_src env
+...
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=Chile
+DB_USERNAME=<USUARIO>
+DB_PASSWORD=<CONTRASEÑA>
+...
+#+end_src
