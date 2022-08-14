@@ -1,0 +1,30 @@
+#+title: Test Mundo Logico
+
+* Funcion para imprimir Gatos
+Para éste script se utiliza Python para resolver el problema de imprimir gatos según la cantidad indicada
+
+Por ejmeplo, si la cantidad indicada es 4:
+
+#+begin_src bash
+####
+###
+##
+#
+#+end_src
+
++ Para lanzar el script, desde una consola utilizar el comando
+  #+begin_src bash
+python3 hashes.py
+  #+end_src
+
+
+* Calcular ingreso total de cadena alimentos
+Para éste script se uitliza python para crear funciones que permitan calcular los ingresos y ganancias totales por tienda y por la cadena completa
+
+Ejemplo:
+[[file:ganancias.png]]
+
++ Para lanzar el script, desde una consola utilizar el comando
+  #+begin_src bash
+python3 ganancia.py
+  #+end_src
